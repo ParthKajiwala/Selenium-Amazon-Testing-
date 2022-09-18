@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="27.779">
+    <testcase classname="Recently looked Item Should be present in the history" name="User Should be able to look items that was previously viewed" time="21.845">
+        <system-out><![CDATA[Given User launches the browser.............................................passed
+When User open the amazon application and clicked on signin button and check if you went on that page or not.passed
+When User enters username and click on next button..........................passed
+And User enters password and Click on submitt button........................passed
+Then Check if user is on home page signed with account......................passed
+And User type in the search box and click on the search button..............passed
+And User clicks on some product to view details and then goes back to home page.passed
+And User scroll down in the home page and clicks on view history link.......passed
+Then check if previosly viewed product is there or not......................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Feature to test the country change" name="User Should be able to open website of selected country" time="5.75">
+        <system-out><![CDATA[Given User launches the browser.............................................passed
+When User open the amazon application.......................................passed
+And User hover on country icon..............................................passed
+And User click on change country icon link..................................passed
+And Check we are on country change page and  click on country drop-down.....passed
+And User selelcts country...................................................passed
+Then User clicks on Go to WebSite button....................................passed
+Then check if user is on changed country website............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
